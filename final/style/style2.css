@@ -1,0 +1,162 @@
+	body,
+	html {
+		margin:0;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding:0;
+		background:#fff;
+		color:#000;
+	}
+	body {
+		
+	}
+	#wrap {
+		width: 100%; 
+		min-width: 1000px;
+		background:#fff;
+		margin:0 auto;
+		
+	}
+	
+	
+	#header {
+		padding-left: 10px;
+	}	
+	
+	#background {
+		width: 1000px;
+		background: #eee;
+	}
+	
+	#leftbox {
+		width: 700px;
+		float: left;
+	}
+	
+	#rightbox {
+		width: 300px;
+		float:left;
+	}
+	
+	#map {
+		width: 495px;
+		height: 400px;
+		background: #ddd;
+		float: left;
+		margin-left:5px;
+	}
+	
+	#infobox{
+		width: 190px;
+		padding: 5px;
+		float:left;
+	}
+	
+	#infobox h4 {
+		margin: 0;
+	}
+	
+	.descriptionbox {
+		width: 100%;
+		
+		padding: 5px;
+		padding-top: 2px;
+		clear: both;
+		padding-right:10px;
+	}
+	
+	#descriptionbox h4 {
+		margin-top: 2px;
+		margin-bottom: 2px;;
+	}
+	
+	#descriptionbox p {
+		margin: 0;
+	}	
+	
+	#imagebox {
+		padding: 5px;
+	}
+	
+	#footer{
+		clear:both;
+	}
+	
+	#imagebox h4 {
+		margin: 0;
+	}
+	
+	.infobox_right{
+		padding: 5px;
+	}
+
+	.infobox_left{
+		padding: 5px;
+	}
+	
+	.infobox_right h4{
+		margin:0;
+	}
+	
+	ul {
+	
+		margin: 0;
+		padding: 0;
+		padding-left:5px;
+		margin-bottom: 5px;
+		list-style-position: inside;
+		list-style-type: none;
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li:before {
+		margin: 0;
+		padding: 0;
+		content: "- ";
+	}
+	
+	.imagetable{
+		padding: 2.5px;
+		
+	}
+	
+	#image_70{
+		
+	}
+	
+	img.active {
+		border: 3px solid #0f0;
+	}
+	img.normal {
+		border: 3px solid #eee;
+	}
+	
+/*
+Copyright (c) 2009 Atle Frenvik Sveen
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+*/

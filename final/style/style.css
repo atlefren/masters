@@ -1,0 +1,236 @@
+	body,
+	html {
+		margin:0;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding:0;
+		background:#fff;
+		color:#000;
+	}
+	body {
+		
+	}
+	#wrap {
+		width: 100%; 
+		min-width: 800px;
+		background:#fff;
+		margin:0 auto;
+		
+	}
+	
+	
+	#header {
+				
+	}
+
+	#map {
+		background:#eee;
+		height: 750px;
+		margin-right:360px; 
+	}
+
+	#sidebar {
+		width:350px; 
+		float:right;
+		margin-left: 10px;
+	}
+	
+	#save {
+		text-align:center;
+		background: #eee;
+		padding: 5px;
+	}
+
+	.imagebox{
+		width: 350px;
+		background:#eee;
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+	.img {
+		
+		padding: 5px;
+		margin-right: 190px;
+	}
+	.right{
+		background: #eee;
+		float: right;
+		padding: 5px;
+		padding-top: 0px;
+		margin-left: 5px;
+		width: 180px;
+		clear: both;
+	}
+	.textbox {
+		width: 140px;
+	}
+
+	.textbox_short {
+		width: 100px;
+	}
+	.dropdown {
+		background:#fff;
+		height: 100px;
+		width: 337px;
+		overflow-x:hidden;
+		overflow-y:scroll;
+		
+		padding: 2px;
+		/* margin-top margin-right margin-bottom margin-left*/
+		margin: 5px 7px 5px 5px;
+	}
+	
+	.option:hover {
+	background: #8080FF;
+	cursor: pointer;
+	}
+	
+	span.link {
+		color: blue;
+		cursor: pointer;
+	}	
+	span.link:hover{
+		text-decoration: underline; 
+		color: red;
+	}
+	
+	
+	#lightbox{
+		background-color:#eee;
+		padding: 10px;
+		border-bottom: 2px solid #666;
+		border-right: 2px solid #666;
+	}
+	
+	#lightboxDetails{
+		font-size: 0.8em;
+		padding-top: 0.4em;
+	}	
+	
+	#lightboxCaption{ 
+		float: left; 
+	}
+
+	#keyboardMsg{
+		float: right; 
+	}
+
+	#closeButton{
+		top: 5px; right: 5px; 
+	}
+
+	#lightbox img{
+		border: none; clear: both;
+	} 
+	#overlay img{
+		border: none; 
+	}
+
+	#overlay{ 
+		background-image: url(../gfx/overlay.png); 
+	}
+
+	* html #overlay{
+		background-color: #333;
+		back\ground-color: transparent;
+		background-image: url(blank.gif);
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../gfx/overlay.png", sizingMethod="scale");
+	}
+	
+	.singleimage {
+		padding: 0;
+		margin: 0;
+	}
+	
+	img.image {
+		margin: 0;
+	}
+	
+	#imagemetadata {
+		margin-top:0px;
+		background: #eee;
+		width: 100%;
+	}
+	
+	.imagecontainer_left {
+		padding-left:5px;
+		margin: 5px 5px 5px 0;
+		width: 22%;
+		float:left;
+		
+	}
+	
+	.imagecontainer {
+		padding-left:5px;
+		margin: 5px 5px 5px 0;
+		width: 37%;
+		float:left;
+	}
+	
+	#imagemetadata h4 {
+		margin: 2px;
+	}
+	
+	#general_info p {
+		margin: 2px;
+		font-size: 14px;
+	}
+	
+	#nearby_images {
+		width: 100%;
+		clear:both;
+		background: #ddd;
+	}
+	
+	
+	#imagemetadata ul {
+	
+		margin: 0;
+		padding: 0;
+		padding-left:5px;
+		margin-bottom: 5px;
+		list-style-position: inside;
+		list-style-type: none;
+	}
+
+	#imagemetadata li {
+		margin: 0;
+		padding: 0;
+	}
+
+	#imagemetadata li:before {
+		margin: 0;
+		padding: 0;
+		content: "- ";
+	}
+	
+	#images p {
+		margin-top:0;
+		padding-top:0;
+	}
+	
+/*
+Copyright (c) 2009 Atle Frenvik Sveen
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+*/
